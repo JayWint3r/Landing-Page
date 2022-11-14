@@ -28,6 +28,7 @@ a:visited {
     font-size: 18px;
     color: #E5E7EB;
     padding: 32px;
+    margin-bottom: 32px;
 }
 
 .logo {
@@ -35,11 +36,7 @@ a:visited {
     font-weight: bold;
 }
 
-img {
-    width: 400px;
-    height: 200px;
-    padding-right: 100px;
-}
+
 
 .hero {
     color: #E5E7EB;
@@ -47,6 +44,7 @@ img {
     justify-content: space-around;
     padding: 32px;
     align-items: center;
+    margin-bottom: 32px;
 }
 
 .hero-text {
@@ -68,10 +66,6 @@ img {
     height: auto;
 }
 
-.hero-img{
-    display: flex;
-}
-
 .button-hero {
     padding: 8px;
     background-color: #3882F6;
@@ -82,9 +76,120 @@ img {
     margin: 8px;
 }
 
+.mountains {
+    padding-right: 100px;
+}
+
 .upper {
     background-color: #1F2937;
 }
 
+.information {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+    padding: 16px;
+}
+
+.mid-container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    text-align: center;
+    padding: 32px;
+    margin-bottom: 32px;
+}
+
+.info {
+    max-width: 200px;
+}
+
+.mid-photo {
+    border: solid 4px #3882F6;
+    border-radius: 10px;
+    height: 150px;
+    width: 200px;
+}
 
 
+.quote-part {
+    display: flex;
+    background-color: #E5E7EB;
+    flex-direction: column;
+    padding: 64px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.quote {
+    color: #1F2937;
+    font-size: 26px;
+    width: 600px;
+    font-weight: 100px;
+}
+
+.quoter {
+    padding-left: 400px;
+    margin: 12px;
+}
+
+
+.signup-part {
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    margin: 32px;
+    margin-left: 300px;
+    margin-right: 300px ;
+    padding: 32px;
+    max-height: 100px;
+    border-radius: 15px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+}
+
+.sign-button {
+ border: solid 2px #E5E7EB;
+ border-radius: 10px;
+ padding: 16px;
+ margin: 16px;
+ margin-left: 60px;
+ max-height: 10px;
+ text-align: center;
+ font-weight: bold;
+ display: flex;
+ align-items: center;
+}
+
+.call {
+    font-weight: bold;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    margin-top: 32px;
+    padding: 32px;
+}
+button, input[type="submit"], input[type="reset"] {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
